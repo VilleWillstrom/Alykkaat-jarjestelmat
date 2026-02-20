@@ -1,0 +1,259 @@
+14:38:58.464 -> Fed WDT (1) interval=1000 ms
+14:38:59.451 -> Fed WDT (2) interval=1000 ms
+14:39:00.453 -> Fed WDT (3) interval=1000 ms
+14:39:01.428 -> Fed WDT (4) interval=1000 ms
+14:39:02.463 -> Fed WDT (5) interval=1000 ms
+14:39:03.442 -> Fed WDT (6) interval=1000 ms
+14:39:03.442 -> Warmup feeding done -> going to reset test #1
+14:39:03.649 -> 
+14:39:03.649 -> RESET TEST #1
+14:39:03.649 -> Hanging without feeding the watchdog...
+14:39:08.454 -> E (22680) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+14:39:08.454 -> E (22680) task_wdt:  - loopTask (CPU 1)
+14:39:08.454 -> E (22680) task_wdt: Tasks currently running:
+14:39:08.454 -> E (22680) task_wdt: CPU 0: IDLE0
+14:39:08.454 -> E (22680) task_wdt: CPU 1: loopTask
+14:39:08.454 -> E (22680) task_wdt: Aborting.
+14:39:08.454 -> 
+14:39:08.454 -> abort() was called at PC 0x400d9195 on core 0
+14:39:08.500 -> 
+14:39:08.500 -> 
+14:39:08.500 -> Backtrace: 0x4008344d:0x3ffbea0c |<-CORRUPTED
+14:39:08.500 -> 
+14:39:08.500 -> 
+14:39:08.500 -> Backtrace: 0x4008344d:0x3ffbea0c |<-CORRUPTED
+14:39:08.500 -> 
+14:39:08.500 -> 
+14:39:08.500 -> 
+14:39:08.500 -> 
+14:39:08.500 -> ELF file SHA256: 5673dcfb74d1bd4b
+14:39:08.500 -> 
+14:39:08.652 -> Rebooting...
+14:39:08.652 -> ets Jul 29 2019 12:21:46
+14:39:08.652 -> 
+14:39:08.652 -> rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:39:08.686 -> configsip: 0, SPIWP:0xee
+14:39:08.686 -> clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:39:08.686 -> mode:DIO, clock div:1
+14:39:08.686 -> load:0x3fff0030,len:1184
+14:39:08.686 -> load:0x40078000,len:13260
+14:39:08.686 -> load:0x40080400,len:3028
+14:39:08.686 -> entry 0x400805e4
+14:39:09.089 -> 
+14:39:09.089 -> ======================================
+14:39:09.089 -> BOOT #2
+14:39:09.089 -> Reset reason: TASK_WDT (task watchdog)
+14:39:09.128 -> Phase: 2
+14:39:09.128 -> WDT enabled (timeout 5 s)
+14:39:09.128 -> 
+14:39:09.128 -> RESET TEST #2
+14:39:09.128 -> Hanging without feeding the watchdog...
+14:39:14.112 -> E (10680) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+14:39:14.112 -> E (10680) task_wdt:  - loopTask (CPU 1)
+14:39:14.112 -> E (10680) task_wdt: Tasks currently running:
+14:39:14.112 -> E (10680) task_wdt: CPU 0: IDLE0
+14:39:14.112 -> E (10680) task_wdt: CPU 1: loopTask
+14:39:14.112 -> E (10680) task_wdt: Aborting.
+14:39:14.112 -> 
+14:39:14.112 -> abort() was called at PC 0x400d9195 on core 0
+14:39:14.153 -> 
+14:39:14.153 -> 
+14:39:14.153 -> Backtrace: 0x4008344d:0x3ffbea0c |<-CORRUPTED
+14:39:14.153 -> 
+14:39:14.153 -> 
+14:39:14.153 -> 
+14:39:14.153 -> 
+14:39:14.153 -> ELF file SHA256: 5673dcfb74d1bd4b
+14:39:14.153 -> 
+14:39:14.331 -> Rebooting...
+14:39:14.331 -> ets Jul 29 2019 12:21:46
+14:39:14.331 -> 
+14:39:14.331 -> rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:39:14.331 -> configsip: 0, SPIWP:0xee
+14:39:14.331 -> clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:39:14.331 -> mode:DIO, clock div:1
+14:39:14.331 -> load:0x3fff0030,len:1184
+14:39:14.331 -> load:0x40078000,len:13260
+14:39:14.331 -> load:0x40080400,len:3028
+14:39:14.331 -> entry 0x400805e4
+14:39:14.756 -> 
+14:39:14.756 -> ======================================
+14:39:14.756 -> BOOT #3
+14:39:14.756 -> Reset reason: TASK_WDT (task watchdog)
+14:39:14.756 -> Phase: 3
+14:39:14.756 -> WDT enabled (timeout 5 s)
+14:39:14.756 -> 
+14:39:14.756 -> Disabling WDT for a while...
+14:39:14.756 -> WDT disabled
+14:39:19.789 -> WDT disabled, elapsed 5 s
+14:39:24.782 -> WDT disabled, elapsed 10 s
+14:39:29.778 -> WDT disabled, elapsed 15 s
+14:39:34.794 -> WDT disabled, elapsed 20 s
+14:39:39.755 -> WDT disabled, elapsed 25 s
+14:39:44.777 -> Re-enabling WDT...
+14:39:44.777 -> WDT enabled (timeout 5 s)
+14:39:44.777 -> WDT is back on -> feeding again
+14:39:45.792 -> Fed WDT (1) interval=1000 ms
+14:39:46.754 -> Fed WDT (2) interval=1000 ms
+14:39:47.787 -> Fed WDT (3) interval=1000 ms
+14:39:48.781 -> Fed WDT (4) interval=1000 ms
+14:39:49.790 -> Fed WDT (5) interval=1000 ms
+14:39:50.779 -> Fed WDT (6) interval=1000 ms
+14:39:50.779 -> Post-enable feeding done -> entering stretch (coarse)
+14:39:51.001 -> COARSE interval=1000 ms
+14:39:51.001 -> COARSE running: interval=1000 ms
+14:39:51.772 -> Fed WDT (1) interval=1000 ms
+14:39:52.774 -> Fed WDT (2) interval=1000 ms
+14:39:53.793 -> Fed WDT (3) interval=1000 ms
+14:39:54.755 -> Fed WDT (4) interval=1000 ms
+14:39:55.754 -> Fed WDT (5) interval=1000 ms
+14:39:55.972 -> COARSE running: interval=1000 ms
+14:39:56.792 -> Fed WDT (6) interval=1000 ms
+14:39:57.781 -> Fed WDT (7) interval=1000 ms
+14:39:58.755 -> Fed WDT (8) interval=1000 ms
+14:39:58.977 -> COARSE interval=1500 ms
+14:40:00.254 -> Fed WDT (9) interval=1500 ms
+14:40:00.953 -> COARSE running: interval=1500 ms
+14:40:01.799 -> Fed WDT (10) interval=1500 ms
+14:40:03.278 -> Fed WDT (11) interval=1500 ms
+14:40:04.754 -> Fed WDT (12) interval=1500 ms
+14:40:05.978 -> COARSE running: interval=1500 ms
+14:40:06.281 -> Fed WDT (13) interval=1500 ms
+14:40:06.953 -> COARSE interval=2000 ms
+14:40:08.289 -> Fed WDT (14) interval=2000 ms
+14:40:10.255 -> Fed WDT (15) interval=2000 ms
+14:40:10.975 -> COARSE running: interval=2000 ms
+14:40:12.254 -> Fed WDT (16) interval=2000 ms
+14:40:14.271 -> Fed WDT (17) interval=2000 ms
+14:40:14.986 -> COARSE interval=2500 ms
+14:40:15.987 -> COARSE running: interval=2500 ms
+14:40:16.795 -> Fed WDT (18) interval=2500 ms
+14:40:19.269 -> Fed WDT (19) interval=2500 ms
+14:40:20.984 -> COARSE running: interval=2500 ms
+14:40:21.780 -> Fed WDT (20) interval=2500 ms
+14:40:22.971 -> COARSE interval=3000 ms
+14:40:24.802 -> Fed WDT (21) interval=3000 ms
+14:40:25.956 -> COARSE running: interval=3000 ms
+14:40:27.793 -> Fed WDT (22) interval=3000 ms
+14:40:30.785 -> Fed WDT (23) interval=3000 ms
+14:40:30.983 -> COARSE running: interval=3500 ms
+14:40:30.983 -> COARSE interval=3500 ms
+14:40:34.277 -> Fed WDT (24) interval=3500 ms
+14:40:35.954 -> COARSE running: interval=3500 ms
+14:40:37.799 -> Fed WDT (25) interval=3500 ms
+14:40:38.974 -> COARSE interval=4000 ms
+14:40:40.953 -> COARSE running: interval=4000 ms
+14:40:41.795 -> Fed WDT (26) interval=4000 ms
+14:40:45.785 -> Fed WDT (27) interval=4000 ms
+14:40:45.985 -> COARSE running: interval=4000 ms
+14:40:46.968 -> COARSE interval=4500 ms
+14:40:50.276 -> Fed WDT (28) interval=4500 ms
+14:40:50.955 -> COARSE running: interval=4500 ms
+14:40:54.780 -> Fed WDT (29) interval=4500 ms
+14:40:54.982 -> COARSE interval=5000 ms
+14:40:55.985 -> COARSE running: interval=5000 ms
+14:40:59.768 -> E (121221) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+14:40:59.768 -> E (121221) task_wdt:  - loopTask (CPU 1)
+14:40:59.768 -> E (121221) task_wdt: Tasks currently running:
+14:40:59.813 -> E (121221) task_wdt: CPU 0: IDLE0
+14:40:59.813 -> E (121221) task_wdt: CPU 1: loopTask
+14:40:59.813 -> E (121221) task_wdt: Aborting.
+14:40:59.813 -> 
+14:40:59.813 -> abort() was called at PC 0x400d9195 on core 0
+14:40:59.813 -> 
+14:40:59.813 -> 
+14:40:59.813 -> Backtrace: 0x4008344d:0x3ffbea0c |<-CORRUPTED
+14:40:59.813 -> 
+14:40:59.813 -> 
+14:40:59.813 -> 
+14:40:59.813 -> 
+14:40:59.813 -> ELF file SHA256: 5673dcfb74d1bd4b
+14:40:59.813 -> 
+14:40:59.972 -> Rebooting...
+14:40:59.972 -> ets Jul 29 2019 12:21:46
+14:40:59.972 -> 
+14:40:59.972 -> rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:41:00.019 -> configsip: 0, SPIWP:0xee
+14:41:00.019 -> clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:41:00.019 -> mode:DIO, clock div:1
+14:41:00.019 -> load:0x3fff0030,len:1184
+14:41:00.019 -> load:0x40078000,len:13260
+14:41:00.019 -> load:0x40080400,len:3028
+14:41:00.019 -> entry 0x400805e4
+14:41:00.447 -> 
+14:41:00.447 -> ======================================
+14:41:00.447 -> BOOT #4
+14:41:00.447 -> Reset reason: TASK_WDT (task watchdog)
+14:41:00.447 -> Phase: 6
+14:41:00.447 -> WDT enabled (timeout 5 s)
+14:41:00.447 -> FINE interval=4500 ms
+14:41:04.917 -> Fed WDT (1) interval=4500 ms
+14:41:05.138 -> FINE running: interval=4500 ms
+14:41:08.409 -> FINE interval=4600 ms
+14:41:09.535 -> Fed WDT (2) interval=4600 ms
+14:41:10.122 -> FINE running: interval=4600 ms
+14:41:14.121 -> Fed WDT (3) interval=4600 ms
+14:41:15.135 -> FINE running: interval=4600 ms
+14:41:16.409 -> FINE interval=4700 ms
+14:41:18.818 -> Fed WDT (4) interval=4700 ms
+14:41:20.139 -> FINE running: interval=4700 ms
+14:41:23.510 -> Fed WDT (5) interval=4700 ms
+14:41:24.420 -> FINE interval=4800 ms
+14:41:25.102 -> FINE running: interval=4800 ms
+14:41:28.339 -> Fed WDT (6) interval=4800 ms
+14:41:30.103 -> FINE running: interval=4800 ms
+14:41:32.409 -> FINE interval=4900 ms
+14:41:33.255 -> Fed WDT (7) interval=4900 ms
+14:41:35.117 -> FINE running: interval=4900 ms
+14:41:38.141 -> Fed WDT (8) interval=4900 ms
+14:41:40.102 -> FINE running: interval=4900 ms
+14:41:40.408 -> FINE interval=5000 ms
+14:41:43.127 -> E (50288) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+14:41:43.127 -> E (50288) task_wdt:  - loopTask (CPU 1)
+14:41:43.127 -> E (50288) task_wdt: Tasks currently running:
+14:41:43.127 -> E (50288) task_wdt: CPU 0: IDLE0
+14:41:43.127 -> E (50288) task_wdt: CPU 1: loopTask
+14:41:43.166 -> E (50288) task_wdt: Aborting.
+14:41:43.166 -> 
+14:41:43.166 -> abort() was called at PC 0x400d9195 on core 0
+14:41:43.166 -> 
+14:41:43.166 -> 
+14:41:43.166 -> Backtrace: 0x4008344d:0x3ffbea0c |<-CORRUPTED
+14:41:43.166 -> 
+14:41:43.166 -> 
+14:41:43.166 -> 
+14:41:43.166 -> 
+14:41:43.166 -> ELF file SHA256: 5673dcfb74d1bd4b
+14:41:43.166 -> 
+14:41:43.332 -> Rebooting...
+14:41:43.332 -> ets Jul 29 2019 12:21:46
+14:41:43.332 -> 
+14:41:43.332 -> rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+14:41:43.332 -> configsip: 0, SPIWP:0xee
+14:41:43.332 -> clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+14:41:43.369 -> mode:DIO, clock div:1
+14:41:43.369 -> load:0x3fff0030,len:1184
+14:41:43.369 -> load:0x40078000,len:13260
+14:41:43.369 -> load:0x40080400,len:3028
+14:41:43.369 -> entry 0x400805e4
+14:41:43.768 -> 
+14:41:43.768 -> ======================================
+14:41:43.768 -> BOOT #5
+14:41:43.768 -> Reset reason: TASK_WDT (task watchdog)
+14:41:43.806 -> Phase: 7
+14:41:43.806 -> --- Stored result ---
+14:41:43.806 -> Coarse lastGood=4500 ms, coarse fail=5000 ms
+14:41:43.806 -> Fine lastGood=4900 ms, fine fail=5000 ms
+14:41:43.806 -> Final lastGood=4900 ms, final fail=5000 ms
+14:41:43.806 -> WDT enabled (timeout 5 s)
+14:41:43.806 -> 
+14:41:43.806 -> === RESULT ===
+14:41:43.806 -> Coarse fail: 5000 ms
+14:41:43.806 -> Coarse last good: 4500 ms
+14:41:43.806 -> Fine fail: 5000 ms
+14:41:43.806 -> Fine last good: 4900 ms
+14:41:43.806 -> Final last good (best estimate): 4900 ms
+14:41:43.806 -> Final fail: 5000 ms
+14:41:43.806 -> 
+14:41:43.806 -> Disabling WDT and stopping output...
+14:41:43.806 -> WDT disabled
